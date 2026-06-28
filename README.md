@@ -1,23 +1,27 @@
-# qr-code-generator
+# QR Code Generator
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-
-> QR code generator for URLs, text, WiFi, and contact cards
+Generate QR codes for URLs, plain text, and contact cards — customizable and downloadable.
 
 ## Features
-- ◼ Real QR codes via the `qrcode` library
-- 🎨 Custom foreground & background colors
-- 📐 Adjustable size (128–512px)
-- 📦 Presets: GitHub, Email, WiFi, Phone
-- ⬇️ Download as PNG
 
-## Tech Stack
-`React 18` · `TypeScript` · `qrcode` · `Vite`
+- URL, text, and vCard (contact card) input modes
+- Adjustable size, error correction level, and colors
+- Foreground and background color picker
+- Logo/image overlay in center
+- Download as PNG or SVG
+- Scan preview with webcam
 
-## Quick Start
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61dafb?style=flat&logo=react&logoColor=black)
+![Vite](https://img.shields.io/badge/Vite-646cff?style=flat&logo=vite&logoColor=white)
+
+## Run locally
+
 ```bash
 npm install && npm run dev
 ```
 
-## License
-[MIT](LICENSE)
+---
+Made by [9bzero](https://github.com/9bzero)
